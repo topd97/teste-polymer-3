@@ -1,7 +1,8 @@
 {
-  "name": "icon-toggle",
+  "name": "teste-polymer3",
   "version": "0.0.0",
-  "homepage": "https://github.com/Polymer/element-tutorial",
+  "homepage": "https://github.com/topd97/teste-polymer-3",
+  "main": "demo/index.html",
   "license": "MIT",
   "ignore": [
     "**/.*",
