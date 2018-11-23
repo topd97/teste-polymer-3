@@ -1,7 +1,8 @@
 {
-  "homepage": "https://github.com/Polymer/element-tutorial",
-  "name": "@polymer/icon-toggle",
+  "homepage": "https://github.com/topd97/teste-polymer-3",
+  "name": "testepolymer3",
   "version": "1.0.0",
+  "main": "icon-toggle.js",
   "resolutions": {
     "inherits": "2.0.3",
     "samsam": "1.1.3",
