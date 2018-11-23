@@ -1,25 +1,27 @@
 <link rel="import" href="../polymer/polymer-element.html">
 <link rel="import" href="../iron-icon/iron-icon.html">
-
 <dom-module id="icon-toggle">
-
   <template>
-
     <style>
       /* shadow DOM styles go here */
       :host {
         display: inline-block;
       }
+      iron-icon {
+        fill: rgba(0,0,0,0);
+        stroke: currentcolor;
+      }
+      :host([pressed]) iron-icon {
+        fill: currentcolor;
+      }
     </style>
-
     <!-- shadow DOM goes here -->
-    <span>Not much here yet.</span>
+    <iron-icon icon="polymer"></iron-icon>
   </template>
-
   <script>
     class IconToggle extends Polymer.Element {
       static get is() {
-        return 'icon-toggle';
+      return "icon-toggle";
       }
       constructor() {
         super();
@@ -27,6 +29,4 @@
     }
     customElements.define(IconToggle.is, IconToggle);
   </script>
-
 </dom-module>
-
